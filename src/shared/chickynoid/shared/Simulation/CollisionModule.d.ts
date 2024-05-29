@@ -1,4 +1,4 @@
-import Signal from "@rbxts/signal";
+import Signal from "@rbxts/signal"
 
 export namespace CollisionModule {
 	export let loadProgress: number;
