@@ -2,7 +2,7 @@ local RunService = game:GetService("RunService")
 
 local module = {}
 
-module.root = script.Parent.Parent.Assets:FindFirstChild("Effects")
+module.root = game.ReplicatedStorage.assets.chickynoid.Effects
 module.particles = {}
 
 --Ultra simple effects module.

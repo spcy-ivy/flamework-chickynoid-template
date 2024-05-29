@@ -1,5 +1,5 @@
 import PlayerRecord from "types/chickynoid/PlayerRecord";
-import { ServerModule } from "./ServerModule";
+import ServerModule from "./ServerModule";
 
 interface WeaponsServer {
 	QueryBullet(

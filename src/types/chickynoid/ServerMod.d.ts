@@ -1,4 +1,4 @@
-import { ServerModule } from "server/chickynoid/ServerModule";
+import ServerModule from "server/chickynoid/ServerModule";
 import PlayerRecord from "./PlayerRecord";
 
 export interface ServerMod {

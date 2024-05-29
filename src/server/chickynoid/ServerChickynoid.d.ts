@@ -1,7 +1,7 @@
 import Signal from "@rbxts/signal";
 import PlayerRecord from "types/chickynoid/PlayerRecord";
-import Simulation from "../../../chickynoid/types/Simulation";
-import { ServerModule } from "./ServerModule";
+import ServerModule from "./ServerModule";
+import Simulation from "shared/chickynoid/shared/Simulation/Simulation";
 
 interface ServerChickynoid {
 	playerRecord: PlayerRecord;

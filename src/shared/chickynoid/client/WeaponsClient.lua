@@ -1,12 +1,12 @@
 local module = {}
 
-local path = game.ReplicatedFirst.Packages.Chickynoid
-local EffectsModule = require(path.Client.Effects)
-local Enums = require(path.Shared.Enums)
+local path = game.ReplicatedStorage.TS.chickynoid
+local EffectsModule = require(path.client.Effects)
+local Enums = require(path.shared.Enums)
 
-local FastSignal = require(path.Shared.Vendor.FastSignal)
-local DeltaTable = require(path.Shared.Vendor.DeltaTable)
-local ClientMods = require(path.Client.ClientMods)
+local FastSignal = require(path.shared.Vendor.FastSignal)
+local DeltaTable = require(path.shared.Vendor.DeltaTable)
+local ClientMods = require(path.client.ClientMods)
 
 module.rockets = {}
 module.weapons = {}

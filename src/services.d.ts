@@ -5,6 +5,12 @@ interface ReplicatedStorage {
 			clientmods: Folder;
 		};
 	};
+	assets: Folder & {
+		chickynoid: Folder & {
+			R15Rig: Model,
+			Effects: Folder
+		};
+	};
 }
 
 interface ServerScriptService {

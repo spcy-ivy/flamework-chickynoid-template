@@ -1,7 +1,7 @@
 import { Controller, OnStart } from "@flamework/core";
 import { ReplicatedStorage } from "@rbxts/services";
-import { ClientMods } from "shared/chickynoid/client/ClientMods";
-import { ClientModule } from "shared/chickynoid/client/ClientModule";
+import ClientMods from "shared/chickynoid/client/ClientMods";
+import ClientModule from "shared/chickynoid/client/ClientModule";
 
 @Controller()
 export class Chickynoid implements OnStart {

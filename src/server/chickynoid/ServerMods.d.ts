@@ -1,8 +1,10 @@
 /** @server */
-export namespace ServerMods {
-	export function RegisterMods(
-		this: typeof ServerMods,
+interface ServerMods {
+	RegisterMods(
 		scope: "servermods" | "characters" | "weapons",
 		folder: Instance,
 	): void;
 }
+
+declare const ServerMods: ServerMods
+export = ServerMods

@@ -1,4 +1,4 @@
-import { ServerModule } from "server/chickynoid/ServerModule"
+import ServerModule from "server/chickynoid/ServerModule"
 import PlayerRecord from "types/chickynoid/PlayerRecord";
 import { ServerMod } from "types/chickynoid/ServerMod";
 
