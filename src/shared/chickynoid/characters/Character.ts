@@ -3,7 +3,7 @@ import Simulation from "../shared/Simulation/Simulation";
 
 export = {
 	Setup(simulation: Simulation) {
-		simulation.constants.maxSpeed = 16 // Units per second
+		simulation.constants.maxSpeed = 48 // Units per second
   	simulation.constants.airSpeed = 16 // Units per second
   	simulation.constants.accel = 10 // Units per second per second
   	simulation.constants.airAccel = 10 // Uses a different function than ground accel!
