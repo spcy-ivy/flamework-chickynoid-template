@@ -70,15 +70,11 @@ export = {
 			command.z = moveVector.Z;
 		}
 
-		// sad solution hours
-		// glad jumping isnt implemented in this game!!
-		/*
 		if (!UserInputService.GetFocusedTextBox()) {
 			const jump = UserInputService.IsKeyDown(Enum.KeyCode.Space)
 			command.y = 0
 			if (jump) command.y = 1
 		}
-		*/
 
 		const rawMoveVector = this.CalculateRawMoveVector(new Vector3(command.x, 0, command.z));
 		command.x = rawMoveVector.X;
