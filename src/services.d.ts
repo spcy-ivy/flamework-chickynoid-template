@@ -8,6 +8,7 @@ interface ReplicatedStorage {
 	assets: Folder & {
 		chickynoid: Folder & {
 			R15Rig: Model,
+			R6Rig: Model,
 			Effects: Folder
 		};
 	};

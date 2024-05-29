@@ -24,7 +24,8 @@ CharacterModel.characterModelCallbacks = {}
 
 
 function CharacterModel:ModuleSetup()
-	self.template = game.ReplicatedStorage.assets.chickynoid.R15Rig
+	self.template = game.ReplicatedStorage.assets.chickynoid.R6Rig
+	-- self.template = game.ReplicatedStorage.assets.chickynoid.R15Rig
 	self.modelPool = {}
 end
 
